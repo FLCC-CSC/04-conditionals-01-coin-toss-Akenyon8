@@ -1,14 +1,19 @@
 # FILE NAME - coin_toss.py
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Austin Kenyon
+# DATE: 09/30/2025
+# BRIEF DESCRIPTION: short code to randomly flip a coin.
 # 1. Make sure you fill out the comments above
 # 2. Write your code in the proper spot
 # 3. Be sure to answer the Reflection Questions and Attestation below
 # 4. The Sample Output has been included in this code for your convenience
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
-
+import random
+print("===== Coin Flipper =====")
+if random.randint(0,1) == 0:
+    print("Heads")
+else:
+    print("Tails")  
 
 
 
@@ -43,7 +48,7 @@ Tails
 '''
 
 1. What was the hardest part of completing this lab? 
-
+I forgot to state if randint = 0 than the answer was heads took me a little bit of trial and error to figure it out.
 
 
 
@@ -62,6 +67,6 @@ like AI and internet sites like Chegg, CourseHero, StackOverflow, and general Go
 may impede your understanding. Please rate how well you understand the concepts in this lab: 
 [ ] I understand very little about this lab.
 [ ] I am about 50/50 on this lab; I get parts of it but not the whole picture.
-[ ] I pretty much get it.
+[X] I pretty much get it.
 [ ] I'm solid. Totally got it.
 '''
